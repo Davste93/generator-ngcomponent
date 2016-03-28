@@ -4,21 +4,21 @@
  * @element <%= component.snakeCaseName %>
  * @description
  *
- * <%= component.description %>
+ * <%- component.description %>
  *
  * @example:
  * <pre>
  *      <<%= component.snakeCaseName %>
- *            myCustomBinding="sampleValue">
+ *            my-custom-binding="sampleValue">
  *      </<%= component.snakeCaseName %>>
  * </pre>
  *
  * @param {myCustomId} myCustomBinding - myCustomBinding value
  *
- * @copyright(C) Copyright 2016, <%= config.company %>
+ * @copyright(C) Copyright 2016, <%= cfg.company %>
  */
 
-angular.module('<%= config.parentModule %>').controller('<%= component.name %>Ctrl',
+angular.module('<%= cfg.parentModule %>').controller('<%= component.name %>Ctrl',
     class <%= component.name %> {
         constructor(){
             var vm = this;
@@ -36,6 +36,6 @@ angular.module('<%= config.parentModule %>').controller('<%= component.name %>Ct
         bindings : {
             myCustomBinding : '=?'
         },
-        templateUrl : '<%= config.templateUrl %>/<%= component.name %>.tpl.html',
+        templateUrl : '<%= cfg.templateUrl %><%= component.name %>.tpl.html',
         controller : '<%= component.name %>Ctrl'
     });

@@ -1,6 +1,6 @@
 {
   "name": "generator-ngcomponent",
-  "esnext" : true,
+  "esnext": true,
   "version": "0.0.1",
   "description": "Generates an angular component + tests.",
   "main": "index.js",
@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/Davste93/generator-ngcomponent",
   "devDependencies": {
-   "yeoman-assert": "^2.0.0"
+    "yeoman-assert": "^2.0.0"
   },
- "keywords": [
-   "yeoman-generator"
- ]
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.5"
+  }
 }
