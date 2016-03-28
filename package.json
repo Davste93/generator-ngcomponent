@@ -1,0 +1,26 @@
+{
+  "name": "generator-ngcomponent",
+  "esnext" : true,
+  "version": "0.0.1",
+  "description": "Generates an angular component + tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Davste93/generator-ngcomponent.git"
+  },
+  "author": "David Stellini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Davste93/generator-ngcomponent/issues"
+  },
+  "homepage": "https://github.com/Davste93/generator-ngcomponent",
+  "devDependencies": {
+   "yeoman-assert": "^2.0.0"
+  },
+ "keywords": [
+   "yeoman-generator"
+ ]
+}
