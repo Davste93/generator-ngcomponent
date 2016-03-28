@@ -1,7 +1,7 @@
 {
   "name": "generator-ngcomponent",
   "esnext": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generates an angular component + tests.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,5 @@
   "keywords": [
     "yeoman-generator"
   ],
-  "dependencies": {
-    "yeoman-generator": "^0.22.5"
-  }
+  "dependencies": {}
 }

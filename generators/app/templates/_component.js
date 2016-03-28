@@ -36,6 +36,6 @@ angular.module('<%= cfg.parentModule %>').controller('<%= component.name %>Ctrl'
         bindings : {
             myCustomBinding : '=?'
         },
-        templateUrl : '<%= cfg.templateUrl %><%= component.name %>.tpl.html',
+        templateUrl : '<%= cfg.templateDir %><%= component.name %>.tpl.html',
         controller : '<%= component.name %>Ctrl'
     });
