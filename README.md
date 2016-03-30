@@ -1,3 +1,8 @@
+# What it does:
+
+This library generates the scaffolding for an angular component for you including Jasmine tests.
+
+
 # Installation
 First, install the yeoman generator: http://yeoman.io/codelab/setup.html
 
