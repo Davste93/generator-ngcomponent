@@ -9,6 +9,7 @@ $ npm install generator-ngcomponent -g
 ## Usage
 
 1. Optionally, create a `.yo-rc.json` file in the same directory you will perform generation. If you do not create this file it will be automatically generated for you. Sample:
+
     ```json
     {
       "generator-ngcomponent": {
@@ -20,6 +21,7 @@ $ npm install generator-ngcomponent -g
       }
     }
     ```
+    
     - @`parentModule`: This  parameter defines the default module name. You will be also asked for the name upon generation of the module.
     - @`templateDir`: This is the directory where the generator will put .tpl.html files for your component. Any folders that do not exist in this (as well as paths below) are created.
     - @`componentDir`: This is the directory where the generator will put .component.js files for your component.
