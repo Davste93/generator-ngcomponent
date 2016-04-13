@@ -33,7 +33,7 @@ $ npm install generator-ngcomponent -g
     - @`specDir`: This is the directory where the generator will put test .spec.js files for your component.
     - @`{component.name}`: Instances of this text will be replaced with the component name.
 2. Run the following command:
-    ```json
+    ```
     $ yo ngcomponent
     ```
     The generator will prompt you the following:
